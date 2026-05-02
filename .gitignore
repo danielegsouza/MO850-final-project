@@ -1,0 +1,31 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Data files (too large for git — keep locally)
+*.csv
+*.npy
+*.pkl
+*.parquet
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (will be downloaded locally)
+models/
+*.bin
+*.safetensors
